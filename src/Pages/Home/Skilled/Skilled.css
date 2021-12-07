@@ -1,0 +1,5 @@
+@media only screen and (max-width: 425px) {
+    #mobileViewSkilled{
+        background-color: rgb(39, 36, 36) !important; 
+    }
+}

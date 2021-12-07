@@ -1,0 +1,18 @@
+@media only screen and (max-width: 425px) {
+  .carousel .control-next.control-arrow:before {
+    color:black;
+    position: relative;
+    top:-11rem;
+    transform: rotate(-90deg);
+  }
+  
+  .carousel .control-prev.control-arrow:before{
+    position: relative;
+    top:11rem;
+    left:24rem;
+    transform: rotate(-90deg);
+  }
+  #mobileCarosalView{
+    background-color: rgb(39, 36, 36) !important
+  }
+}
