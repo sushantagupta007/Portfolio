@@ -1,0 +1,28 @@
+#customStyle1{
+    text-decoration: none;
+}
+#customStyle2{
+    text-decoration: none;
+}
+#customStyle3{
+    text-decoration: none;
+}
+#customStyle4{
+    text-decoration: none;
+}
+#customStyle1:hover{
+    border-bottom:1px solid black; 
+    
+}
+#customStyle2:hover{
+    border-top:1px solid black; 
+    
+}
+#customStyle3:hover{
+    border-bottom:1px solid black; 
+    
+}
+#customStyle4:hover{
+    border-top:1px solid black; 
+    
+}

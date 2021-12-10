@@ -1,0 +1,16 @@
+@media only screen and (max-width: 320px) {
+    .socialBoxWidthMobile{
+        width:80%;
+    }
+}
+@media only screen and (min-width:321px)and(max-width: 425px) {
+    .socialBoxWidthMobile{
+        width:50%;
+    }
+}
+@media only screen and (min-width: 426px) {
+    .socialBoxWidthMobile{
+        width:50%;
+        margin:0px auto;
+    }
+}
