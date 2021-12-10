@@ -19,9 +19,9 @@ const TopMenu = () => {
                         <div className="socialBoxWidthMobile ">
                             <ul className="d-flex justify-content-between p-0">
                                 <li style={{listStyleType:"none"}} className="fw-bold"> Find Me On </li>
-                                <li style={{listStyleType:"none"}}> <i className=" fab fa-facebook-f"></i></li>
-                                <li style={{listStyleType:"none"}}> <i className="fab fa-github"></i></li>
-                                <li style={{listStyleType:"none"}}> <i className="fab fa-linkedin"></i></li>
+                                <li style={{listStyleType:"none"}}> <a href="https://web.facebook.com/sushanta.gupta"> <i className=" fab fa-facebook-f text-white"></i> </a></li>
+                                <li style={{listStyleType:"none"}}> <a href="https://github.com/sushantagupta007"> <i className="fab fa-github text-white"></i> </a></li>
+                                <li style={{listStyleType:"none"}}> <a href="https://www.linkedin.com/feed/"><i className="fab fa-linkedin text-white"></i></a></li>
                             </ul>
                         </div>
                     </Col>

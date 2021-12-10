@@ -6,7 +6,7 @@ import Downward from '../../Image/Position/Downward.png'
 const Note = () => {
     return (
         <Container fluid className="border bg-dark border-secondary" id="blog">
-        <Container className="p-0">
+        <Container className="p-2">
             <h2 className="text-center text-white mb-5">Amar (My) <span className="text-warning fw-bold"> Kotha (Notes) </span> </h2>
             <Container className="text-white">
                 <h4> Absolute Position vs Relative Position</h4>
@@ -29,11 +29,11 @@ const Note = () => {
                         position: absolute;
                         top: 60 inches.   
                 </div>
-                <div className="d-flex justify-content-between p-2"> 
-                    <img src={InlineImage} alt="" />
+                <div className="d-flex flex-column flex-lg-row align-items-between justify-content-between p-2"> 
+                    <img className="border" src={InlineImage} alt="" />
                     
-                    <img src={Downward} alt="" />
-                    <img src={InlineImage} alt="" />
+                    <img className="border" src={Downward} alt="" />
+                    <img className="border" src={InlineImage} alt="" />
                 </div>
             </Container>
         </Container>

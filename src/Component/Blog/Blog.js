@@ -18,7 +18,6 @@ const Blog = () => {
         <TopMenu></TopMenu>
         <NavigationBlog></NavigationBlog>
         <Note></Note>
-        
         <Project></Project>
         <Contact></Contact>
         <Footer></Footer>

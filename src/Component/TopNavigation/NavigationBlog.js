@@ -12,7 +12,7 @@ const NavigationBlog = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav  className="me-auto">
-                    <HashLink to="#home" id="customStyle1" className="me-2">Home</HashLink>
+                    <HashLink to="/home" id="customStyle1" className="me-2">Home</HashLink>
                     <HashLink to="#project" id="customStyle3" className="me-2">Projects</HashLink>
                     <HashLink to="/blog" id="customStyle3" className="me-2">Blog</HashLink>
                     <HashLink to="#contact"id="customStyle4" className="me-2">Contact Me</HashLink>
