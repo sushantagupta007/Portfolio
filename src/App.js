@@ -1,9 +1,9 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import TopMenu from './Component/TopNavigation/TopMenu';
+import TopMenu from './Component/TopMenu/TopMenu';
 
-import Navigation from './Component/TopNavigation/Navigation';
+import Navigation from './Component/HomeNav/Navigation';
 
 import {
   BrowserRouter as Router,
@@ -12,10 +12,11 @@ import {
   Link
 } from "react-router-dom";
 import { Fragment } from 'react';
-import Header from './Component/Header/Header';
+import Header from './Pages/Header/Header';
 import Media from 'react-media';
-import MobileHeader from './Component/MobileHeader/MobileHeader';
+// import MobileHeader from './Component/MobileHeader/MobileHeader';
 import Blog from './Component/Blog/Blog';
+import MobileHeader from './Pages/MobileHeader/MobileHeader';
 
 
 
@@ -55,7 +56,7 @@ function App() {
                 </Switch>
               </Router>
               }
-              {matches.large && <p>I am large!</p>}
+       
             </Fragment>
           )}
     </Media>

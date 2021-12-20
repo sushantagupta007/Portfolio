@@ -4,7 +4,7 @@ import { Card,Button} from 'react-bootstrap';
 import './ProjectCard.css';
 
 const ProjectCard = (props) => {
-    const {img,title,des,btn} = props
+    const {img,title,des,btn,link} = props
 
     return (
         <Card id="customCard"style={{ width: '18rem' }}>
@@ -14,7 +14,7 @@ const ProjectCard = (props) => {
                 <Card.Text>
                     {des}
                 </Card.Text>
-                <Button id="cardButon" variant="primary">{btn}</Button>
+                <a href={link} id="cardButon" variant="primary">{btn}</a>
             </Card.Body>
         </Card>
     );

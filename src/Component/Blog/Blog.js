@@ -2,12 +2,12 @@ import React, { Fragment } from 'react';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Project from '../Projects/Project';
-import Navigation from '../TopNavigation/Navigation';
+import Navigation from '../HomeNav/Navigation';
 
-import TopMenu from '../TopNavigation/TopMenu';
+import TopMenu from '../TopMenu/TopMenu';
 import Note from './Note';
 import AboutMe from './../About Me/AboutMe';
-import NavigationBlog from './../TopNavigation/NavigationBlog';
+import NavigationBlog from '../NavBlog/NavigationBlog';
 
 
 

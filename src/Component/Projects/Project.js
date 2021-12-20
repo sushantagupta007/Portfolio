@@ -18,7 +18,7 @@ const Project = () => {
                         <ProjectCard img={Tourist} btn="Make Tour" title="Trave Friend Project" des="Best Tour Planner"></ProjectCard>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center justify-content-sm-start">
-                        <ProjectCard img={Camera} btn="Buy Camera" title="Camera Shop" des="Best Product Available"></ProjectCard>
+                        <ProjectCard link="https://camera-sell.web.app/home" img={Camera} btn="Buy Camera" title="Camera Shop" des="Best Product Available"></ProjectCard>
                     </Col>
                 </Row>
             </Container>
