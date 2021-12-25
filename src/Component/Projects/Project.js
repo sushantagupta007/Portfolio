@@ -12,7 +12,7 @@ const Project = () => {
                 <h1 className="text-center"> Completed <span className="text-warning fw-bold"> Projects </span> </h1>
                 <Row>
                     <Col xs={12} sm={4} className="d-flex justify-content-center justify-content-sm-start">
-                        <ProjectCard img={Instrument} btn="Visit Hospital" title="United Hospital Project" des="Emerging Hospital in Dhaka"></ProjectCard>
+                        <ProjectCard link="https://nervous-euler-69ce2c.netlify.app/doctor"img={Instrument} btn="Visit Hospital" title="United Hospital Project" des="Emerging Hospital in Dhaka"></ProjectCard>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center justify-content-sm-start">
                         <ProjectCard img={Tourist} btn="Make Tour" title="Trave Friend Project" des="Best Tour Planner"></ProjectCard>

@@ -6,6 +6,7 @@ import Downward from '../../Image/Position/Downward.png'
 import HandlerCode from '../../Image/ReactLeaflet/onClickCode.png'
 import ReactMarker from '../../Image/ReactLeaflet/Maker.PNG'
 import customIcon from '../../Image/ReactLeaflet/iconCode.png'
+import DynamicRoute from '../../Image/React Router/Dynamic Route.png'
 const Note = () => {
     return (
         <Container fluid className="border bg-dark border-secondary" id="blog">
@@ -91,6 +92,16 @@ const Note = () => {
                 <p className='text-secondary'> I solved the problem (TypeError: options.icon.createIcon is not a function) and onClick handler function problem
                     in this way. 
                 </p>
+            </Container>
+            <Container>
+                <h4 className='text-white'> Dynamic Routing in React Router</h4>
+                <p className='text-secondary'> 
+                    The ':'-symbol is important for dynamic route. Without this symbol the route will not work. 
+                    I will remind it next time when will crate dynamic route. I will put ':'-sign before each condition. 
+
+                </p>
+                <img className="w-50 "src={DynamicRoute} alt="Dynamic Route" /> 
+
             </Container>
         </Container>
         </Container>   
