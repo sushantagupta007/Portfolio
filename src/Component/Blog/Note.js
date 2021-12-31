@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import InlineImage from '../../Image/Position/InlineDisplay.png'
 import Downward from '../../Image/Position/Downward.png'
 
@@ -7,6 +7,9 @@ import HandlerCode from '../../Image/ReactLeaflet/onClickCode.png'
 import ReactMarker from '../../Image/ReactLeaflet/Maker.PNG'
 import customIcon from '../../Image/ReactLeaflet/iconCode.png'
 import DynamicRoute from '../../Image/React Router/Dynamic Route.png'
+
+import useState from '../../Image/Type Error/UseState.png'
+import solveTypeError from '../../Image/Type Error/TypeErrorSolve.png'
 const Note = () => {
     return (
         <Container fluid className="border bg-dark border-secondary" id="blog">
@@ -94,6 +97,27 @@ const Note = () => {
                 </p>
             </Container>
             <Container>
+                <h4 className='text-white'> TypeError: Explore Data is not a function</h4>
+                <p className='text-secondary'> 
+                    I got this error when fetching data from a json file, stored in Public Directory of React APP.
+                    There was a array of objects in the json file. When I declared useState hook, I mistakenly set the initial
+                    value as an object. (As shown in below figure)
+                </p>
+                <p className='text-secondary'> Luckily, I thought that initial value should be an array and so I changed the value as an array. I solved it. Eureka. </p>
+                <Row>
+                    <Col lg={6} xs={12}>
+                        <img className="w-100 "src={useState} alt="Dynamic Route" />
+                        <figcaption className='text-white'>Initial Value: Object</figcaption>
+                    </Col>
+                   <Col lg={6} xs={12}>
+                        <img className="w-100 "src={solveTypeError} alt="Dynamic Route" />
+                        <figcaption className='text-white'>Initial Value: Array</figcaption>
+                   </Col>
+                </Row>
+                 
+
+            </Container>
+            <Container>
                 <h4 className='text-white'> Dynamic Routing in React Router</h4>
                 <p className='text-secondary'> 
                     The ':'-symbol is important for dynamic route. Without this symbol the route will not work. 
@@ -101,7 +125,6 @@ const Note = () => {
 
                 </p>
                 <img className="w-50 "src={DynamicRoute} alt="Dynamic Route" /> 
-
             </Container>
         </Container>
         </Container>   
