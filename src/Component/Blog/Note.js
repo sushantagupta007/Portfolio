@@ -10,6 +10,9 @@ import DynamicRoute from '../../Image/React Router/Dynamic Route.png'
 
 import useState from '../../Image/Type Error/UseState.png'
 import solveTypeError from '../../Image/Type Error/TypeErrorSolve.png'
+import UIShow from '../../Image/Type Error/UIShow.png'; 
+import UISolve from '../../Image/Type Error/UISolve.png'
+
 const Note = () => {
     return (
         <Container fluid className="border bg-dark border-secondary" id="blog">
@@ -104,7 +107,7 @@ const Note = () => {
                     value as an object. (As shown in below figure)
                 </p>
                 <p className='text-secondary'> Luckily, I thought that initial value should be an array and so I changed the value as an array. I solved it. Eureka. </p>
-                <Row>
+                <Row className="border-bottom">
                     <Col lg={6} xs={12}>
                         <img className="w-100 "src={useState} alt="Dynamic Route" />
                         <figcaption className='text-white'>Initial Value: Object</figcaption>
@@ -114,15 +117,28 @@ const Note = () => {
                         <figcaption className='text-white'>Initial Value: Array</figcaption>
                    </Col>
                 </Row>
-                 
-
+                <p className='text-secondary'>
+                    After solving the type error, I faced another problem. No Card is displayed in the error but there
+                    had no error in the console window. After some struggle, I discovered that there was a curly braces which 
+                    wrapped ExploredCard Component. I removed the curly braces from both sides and 
+                </p>
+                <Row>
+                    <Col lg={6} xs={12}>
+                        <img className="w-100 "src={UIShow} alt="Dynamic Route" />
+                        <figcaption className='text-white'>Curly Braces</figcaption>
+                    </Col>
+                   <Col lg={6} xs={12}>
+                        <img className="w-100 "src={UISolve} alt="Dynamic Route" />
+                        <figcaption className='text-white'>Without Curly Braces</figcaption>
+                   </Col>
+                </Row>
+              
             </Container>
             <Container>
                 <h4 className='text-white'> Dynamic Routing in React Router</h4>
                 <p className='text-secondary'> 
                     The ':'-symbol is important for dynamic route. Without this symbol the route will not work. 
                     I will remind it next time when will crate dynamic route. I will put ':'-sign before each condition. 
-
                 </p>
                 <img className="w-50 "src={DynamicRoute} alt="Dynamic Route" /> 
             </Container>
