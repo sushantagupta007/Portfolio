@@ -7,6 +7,8 @@ import HandlerCode from '../../Image/ReactLeaflet/onClickCode.png'
 import ReactMarker from '../../Image/ReactLeaflet/Maker.PNG'
 import customIcon from '../../Image/ReactLeaflet/iconCode.png'
 import DynamicRoute from '../../Image/React Router/Dynamic Route.png'
+import Warning from '../../Image/Warning/Functions are not valid as a React child.png'
+import CommentWarning from '../../Image/Warning/Comment.png'
 
 import useState from '../../Image/Type Error/UseState.png'
 import solveTypeError from '../../Image/Type Error/TypeErrorSolve.png'
@@ -141,6 +143,27 @@ const Note = () => {
                     I will remind it next time when will crate dynamic route. I will put ':'-sign before each condition. 
                 </p>
                 <img className="w-50 "src={DynamicRoute} alt="Dynamic Route" /> 
+            </Container>
+            <Container>
+                <h4 className='text-danger'> Warning: Functions are not valid as a React child.</h4>
+                <p className='text-secondary'> "Warning: Functions are not valid as a React child. 
+                 This may happen if you return a Component instead of 'Component' from render. 
+                Or maybe you meant to call this function rather than return it.</p>
+                <p className='text-secondary'> 
+                    I got this warning because I used (comment) in props of Blog Card Component. When I used this props value, I 
+                    wrote it as Uppercase. There had no problem of UI Rendering but I received 
+                    an warning in the console as mentioned above . To find solution I did google and found similar question in 
+                    <a href="https://stackoverflow.com/questions/48458334/functions-are-not-valid-as-a-react-child-this-may-happen-if-you-return-a-compon"> Stack Over Link</a>. 
+                    However, I was not able to find any solution from this link. Suddenly, I imagined that what would happen if I changed the Uppercase (Comment) to 
+                    lowecase. I did so and there was no warning in the console. 
+                    Hurrah!! 
+                </p>
+                <div className='d-flex'> 
+                    <img className="w-50 me-2 "src={Warning} alt="Functions are not valid as a React child" />
+                    <img className="w-50"src={CommentWarning } alt="Functions are not valid as a React child" />
+                </div>
+             
+                
             </Container>
         </Container>
         </Container>   
