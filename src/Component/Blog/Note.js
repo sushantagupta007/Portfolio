@@ -225,7 +225,7 @@ const Note = () => {
                                 I was receiving logged in user object using the username props.
                             </figcaption>
                         </div>
-                        <div>
+                        <div className='border-bottom'>
                             <img className='w-100' src={userDisplayName} alt="userDisplayName"/>
                             <p className='text-secondary'> 
                                 I was using the whole object in Typography Component. It was the source of my warning. 
