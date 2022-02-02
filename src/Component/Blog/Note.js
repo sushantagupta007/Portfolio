@@ -234,7 +234,6 @@ const Note = () => {
                             </p>
                         </div>
                     </div>
-                 
                 </Container>
             </Container>
         </Container>

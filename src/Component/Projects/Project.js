@@ -15,7 +15,7 @@ const Project = () => {
                         <ProjectCard link="https://nervous-euler-69ce2c.netlify.app"img={Instrument} btn="Visit Hospital" title="United Hospital Project" des="Emerging Hospital in Dhaka"></ProjectCard>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center justify-content-sm-start">
-                        <ProjectCard img={Tourist} btn="Make Tour" title="Trave Friend Project" des="Best Tour Planner"></ProjectCard>
+                        <ProjectCard link="https://upbeat-feynman-4bd09d.netlify.app/" img={Tourist} btn="Make Tour" title="Trave Friend Project" des="Best Tour Planner"></ProjectCard>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center justify-content-sm-start">
                         <ProjectCard link="https://camera-sell.web.app/home" img={Camera} btn="Buy Camera" title="Camera Shop" des="Best Product Available"></ProjectCard>
