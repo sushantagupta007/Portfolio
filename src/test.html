@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .innerDiv{
+            border:1px solid black;
+            height:60px;
+            width:60px;
+            display:inline-block;
+        }
+        .outerDiv{
+            width:300px;
+            height:119px;
+            display:inline-block;
+            box-sizing: border-box;
+            border:1px solid red; 
+            position: relative;
+        }
+
+        #absolute{
+            position:absolute;
+            top:60px;   
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outerDiv"> 
+        <div  class="innerDiv"> Button 1 </div>
+        <div class="innerDiv"> Button 2 </div>
+        <div id="absolute" class="innerDiv"> Button 3 </div> <!--Number 3-->
+    </div>
+</body>
+</html>
