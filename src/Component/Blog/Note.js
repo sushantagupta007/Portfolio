@@ -21,7 +21,7 @@ import Condition from '../../Image/Dynamic Style In Styled Component/SX.png'
 import sendingProp from '../../Image/Warning/Failed prop type Invalid prop children.png';
 import receivingProp from '../../Image/Warning/Receive Props.png'; 
 import userDisplayName from '../../Image/Warning/userDisplayName.png'; 
-import registrer from '../../Image/register.png'; 
+import register from '../../Image/Register.png'; 
 
 const Note = () => {
     return (
