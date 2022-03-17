@@ -21,6 +21,7 @@ import Condition from '../../Image/Dynamic Style In Styled Component/SX.png'
 import sendingProp from '../../Image/Warning/Failed prop type Invalid prop children.png';
 import receivingProp from '../../Image/Warning/Receive Props.png'; 
 import userDisplayName from '../../Image/Warning/userDisplayName.png'; 
+import registrer from '../../Image/register.png'; 
 
 const Note = () => {
     return (
@@ -234,6 +235,14 @@ const Note = () => {
                             </p>
                         </div>
                     </div>
+                </Container>
+                <Container> 
+                    <img src={register} alt="register" />
+                    <p className='text-secondary'>  
+                    Uncaught (in promise) Error: Invalid hook call. 
+                    Hooks can only be called inside of the body of a function component. 
+                    This could happen for one of the following reasons:
+                    </p>
                 </Container>
             </Container>
         </Container>
