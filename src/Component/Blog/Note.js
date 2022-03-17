@@ -208,7 +208,6 @@ const Note = () => {
                     <img className="w-100"src={Condition} alt="" />
                     <figcaption>Use of Condition Inside SX</figcaption>
                 </div>
-
                 <Container>
                     <h4 className='text-white mt-2'> 
                         Warning: Failed prop type: Invalid prop `children` supplied to `ForwardRef(Typography)`, expected a ReactNode.
@@ -237,7 +236,7 @@ const Note = () => {
                     </div>
                 </Container>
                 <Container> 
-                    <img src={register} alt="register" />
+                    <img className="w-100" src={register} alt="register" />
                     <p className='text-secondary'>  
                     Uncaught (in promise) Error: Invalid hook call. 
                     Hooks can only be called inside of the body of a function component. 
