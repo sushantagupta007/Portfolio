@@ -17,6 +17,7 @@ import Media from 'react-media';
 // import MobileHeader from './Component/MobileHeader/MobileHeader';
 import Blog from './Component/Blog/Blog';
 import MobileHeader from './Pages/MobileHeader/MobileHeader';
+import Test from './Component/Test/Test';
 
 
 
@@ -43,6 +44,7 @@ function App() {
                   <Route exact path="/">
                     <MobileHeader> </MobileHeader>
                   </Route>
+                  
                 </Switch>
               </Router>
               }
@@ -51,8 +53,9 @@ function App() {
                 <Switch>
                   <Route path="/home"> <Header></Header></Route>
                   <Route path="/blog"> <Blog></Blog> </Route>
+                  <Route exact path="/test"> <Test></Test></Route>
                   <Route exact path="/*"> <Header></Header></Route>
-                  
+                
                 </Switch>
               </Router>
               }

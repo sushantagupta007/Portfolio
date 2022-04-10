@@ -47,11 +47,12 @@ const AboutMe = () => {
                                         <li> JavaScript (ES6+) </li>
                                         <li> React JS </li>
                                         <li> Bootstrap/Tailwind/Material UI </li>
+                                        <li> TypeScript </li>
                                     </ul>
                                     <p className="text-warning">  Familiar With </p> 
                                     <ul> 
                                         <li> Node JS, Next JS, Express JS </li>
-                                        <li> React Native, React Redux </li>
+                                        <li> React Redux </li>
                                     </ul>
                             </div>
                         </StyleRoot>
